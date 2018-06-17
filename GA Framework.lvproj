@@ -33,7 +33,21 @@
 				<Item Name="Character.lvclass" Type="LVClass" URL="../Demo/Shakespear Monkeys/Gene/Character.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Binary String Decoder.vi" Type="VI" URL="../../Support/Binary String Decoder.vi"/>
+			<Item Name="Binary String Encoder.vi" Type="VI" URL="../../Support/Binary String Encoder.vi"/>
+		</Item>
+		<Item Name="Numeric Optimization" Type="Folder">
+			<Item Name="Population" Type="Folder"/>
+			<Item Name="Chromosome" Type="Folder">
+				<Item Name="Solution.lvclass" Type="LVClass" URL="../Demo/Numeric Optimization/Chromosome/Solution.lvclass"/>
+			</Item>
+			<Item Name="Gene" Type="Folder">
+				<Item Name="Bit.lvclass" Type="LVClass" URL="../Demo/Numeric Optimization/Gene/Bit.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="Demo.vi" Type="VI" URL="../Demo/Demo.vi"/>
+		<Item Name="Demo2.vi" Type="VI" URL="../Demo/Demo2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
@@ -41,6 +55,7 @@
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 			</Item>
+			<Item Name="Map to Range.vi" Type="VI" URL="../../Support/Map to Range.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

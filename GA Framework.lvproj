@@ -55,6 +55,9 @@
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 			</Item>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+			</Item>
 			<Item Name="Map to Range.vi" Type="VI" URL="../../Support/Map to Range.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

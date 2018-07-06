@@ -22,16 +22,17 @@
 			<Item Name="IChromosome.lvclass" Type="LVClass" URL="../IChromosome/IChromosome.lvclass"/>
 		</Item>
 		<Item Name="Gene" Type="Folder">
+			<Item Name="Concrete Genes" Type="Folder">
+				<Item Name="Binary Gene.lvclass" Type="LVClass" URL="../IGene/Children/Binary/Binary Gene.lvclass"/>
+				<Item Name="Real Gene.lvclass" Type="LVClass" URL="../IGene/Children/RealVal/Real Gene.lvclass"/>
+				<Item Name="Object Gene.lvclass" Type="LVClass" URL="../IGene/Children/Object/Object Gene.lvclass"/>
+			</Item>
 			<Item Name="IGene.lvclass" Type="LVClass" URL="../IGene/IGene.lvclass"/>
 		</Item>
 		<Item Name="Shakespear Monkey Demo" Type="Folder">
 			<Item Name="Population" Type="Folder"/>
-			<Item Name="Chromosome" Type="Folder">
-				<Item Name="Sentence.lvclass" Type="LVClass" URL="../Demo/Shakespear Monkeys/Chromosome/Sentence.lvclass"/>
-			</Item>
-			<Item Name="Gene" Type="Folder">
-				<Item Name="Character.lvclass" Type="LVClass" URL="../Demo/Shakespear Monkeys/Gene/Character.lvclass"/>
-			</Item>
+			<Item Name="Chromosome" Type="Folder"/>
+			<Item Name="Gene" Type="Folder"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Binary String Decoder.vi" Type="VI" URL="../../Support/Binary String Decoder.vi"/>
@@ -39,15 +40,12 @@
 		</Item>
 		<Item Name="Numeric Optimization" Type="Folder">
 			<Item Name="Population" Type="Folder"/>
-			<Item Name="Chromosome" Type="Folder">
-				<Item Name="Solution.lvclass" Type="LVClass" URL="../Demo/Numeric Optimization/Chromosome/Solution.lvclass"/>
-			</Item>
-			<Item Name="Gene" Type="Folder">
-				<Item Name="Bit.lvclass" Type="LVClass" URL="../Demo/Numeric Optimization/Gene/Bit.lvclass"/>
-			</Item>
+			<Item Name="Chromosome" Type="Folder"/>
+			<Item Name="Gene" Type="Folder"/>
 		</Item>
-		<Item Name="Demo.vi" Type="VI" URL="../Demo/Demo.vi"/>
-		<Item Name="Demo2.vi" Type="VI" URL="../Demo/Demo2.vi"/>
+		<Item Name="GA Core" Type="Folder">
+			<Item Name="GA Core.lvclass" Type="LVClass" URL="../GA Core/GA Core.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
@@ -55,10 +53,8 @@
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 			</Item>
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-			</Item>
-			<Item Name="Map to Range.vi" Type="VI" URL="../../Support/Map to Range.vi"/>
+			<Item Name="Read Allele-Bit.vi" Type="VI" URL="../IGene/Accessors/Read Allele-Bit.vi"/>
+			<Item Name="Write Allele-Bit.vi" Type="VI" URL="../IGene/Accessors/Write Allele-Bit.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

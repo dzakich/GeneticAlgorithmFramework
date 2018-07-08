@@ -53,8 +53,6 @@
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 			</Item>
-			<Item Name="Read Allele-Bit.vi" Type="VI" URL="../IGene/Accessors/Read Allele-Bit.vi"/>
-			<Item Name="Write Allele-Bit.vi" Type="VI" URL="../IGene/Accessors/Write Allele-Bit.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

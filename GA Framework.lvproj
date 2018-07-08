@@ -15,6 +15,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="GA Core" Type="Folder">
+			<Item Name="Genetic Operators" Type="Folder">
+				<Item Name="Mutator" Type="Folder">
+					<Item Name="Concrete" Type="Folder">
+						<Item Name="Binary Mutator.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Mutator/Children/Binary Mutator/Binary Mutator.lvclass"/>
+					</Item>
+					<Item Name="Mutator.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Mutator/Mutator.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="GA Core.lvclass" Type="LVClass" URL="../GA Core/GA Core.lvclass"/>
 		</Item>
 		<Item Name="World" Type="Folder"/>
@@ -35,6 +43,7 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="Binary String Decoder.vi" Type="VI" URL="../../Support/Binary String Decoder.vi"/>
 			<Item Name="Binary String Encoder.vi" Type="VI" URL="../../Support/Binary String Encoder.vi"/>
+			<Item Name="Random Occurence.vi" Type="VI" URL="../../Support/Random Occurence.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -42,6 +51,9 @@
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+			</Item>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

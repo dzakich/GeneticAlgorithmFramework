@@ -14,6 +14,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="GA Core" Type="Folder">
+			<Item Name="GA Core.lvclass" Type="LVClass" URL="../GA Core/GA Core.lvclass"/>
+		</Item>
 		<Item Name="World" Type="Folder"/>
 		<Item Name="Population" Type="Folder">
 			<Item Name="IPopulation.lvclass" Type="LVClass" URL="../IPopulation/IPopulation.lvclass"/>
@@ -29,22 +32,9 @@
 			</Item>
 			<Item Name="IGene.lvclass" Type="LVClass" URL="../IGene/IGene.lvclass"/>
 		</Item>
-		<Item Name="Shakespear Monkey Demo" Type="Folder">
-			<Item Name="Population" Type="Folder"/>
-			<Item Name="Chromosome" Type="Folder"/>
-			<Item Name="Gene" Type="Folder"/>
-		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Binary String Decoder.vi" Type="VI" URL="../../Support/Binary String Decoder.vi"/>
 			<Item Name="Binary String Encoder.vi" Type="VI" URL="../../Support/Binary String Encoder.vi"/>
-		</Item>
-		<Item Name="Numeric Optimization" Type="Folder">
-			<Item Name="Population" Type="Folder"/>
-			<Item Name="Chromosome" Type="Folder"/>
-			<Item Name="Gene" Type="Folder"/>
-		</Item>
-		<Item Name="GA Core" Type="Folder">
-			<Item Name="GA Core.lvclass" Type="LVClass" URL="../GA Core/GA Core.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

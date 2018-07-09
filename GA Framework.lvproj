@@ -27,6 +27,9 @@
 					<Item Name="Selector.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Selector/Selector.lvclass"/>
 				</Item>
 				<Item Name="Recombinator" Type="Folder">
+					<Item Name="Concrete" Type="Folder">
+						<Item Name="N-Point Crossover.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Recombinator/Children/N-Point Crossover.lvclass"/>
+					</Item>
 					<Item Name="Recombinator.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Recombinator/Recombinator.lvclass"/>
 				</Item>
 				<Item Name="Fitness Agent" Type="Folder">

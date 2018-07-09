@@ -20,4 +20,16 @@
 	<Item Name="Recombinator.ctl" Type="Class Private Data" URL="Recombinator.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Overrides" Type="Folder">
+		<Item Name="Do Recombination.vi" Type="VI" URL="../Do Recombination.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!.E"Q!"Y!!"5435.I=G^N&lt;X.P&lt;75O&lt;(:D&lt;'&amp;T=Q!835.I=G^N&lt;X.P&lt;75A1WBJ&lt;'1A1C"P&gt;81!.E"Q!"Y!!"5435.I=G^N&lt;X.P&lt;75O&lt;(:D&lt;'&amp;T=Q!835.I=G^N&lt;X.P&lt;75A1WBJ&lt;'1A13"P&gt;81!-E"Q!"Y!!"955G6D&lt;WVC;7ZB&gt;'^S,GRW9WRB=X-!!""3:7.P&lt;7*J&lt;G&amp;U&lt;X)A&lt;X6U!!!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!$:!=!!?!!!6%UF$;(*P&lt;7^T&lt;WVF,GRW9WRB=X-!&amp;UF$;(*P&lt;7^T&lt;WVF)&amp;"B=G6O&gt;#"#)'FO!$:!=!!?!!!6%UF$;(*P&lt;7^T&lt;WVF,GRW9WRB=X-!&amp;UF$;(*P&lt;7^T&lt;WVF)&amp;"B=G6O&gt;#"")'FO!$"!=!!?!!!7&amp;&amp;*F9W^N9GFO982P=CZM&gt;G.M98.T!!!05G6D&lt;WVC;7ZB&gt;'^S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!E!#A!,!A!!?!!!$1A!!!U*!!!.#A!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!"!!!!#1!!!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		</Item>
+	</Item>
 </LVClass>

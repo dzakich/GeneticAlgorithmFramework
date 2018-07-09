@@ -20,4 +20,16 @@
 	<Item Name="Fitness Agent.ctl" Type="Class Private Data" URL="Fitness Agent.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Overrides" Type="Folder">
+		<Item Name="Do Evaluate Fitness.vi" Type="VI" URL="../Do Evaluate Fitness.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!6%UF$;(*P&lt;7^T&lt;WVF,GRW9WRB=X-!$UF$;(*P&lt;7^T&lt;WVF)'^V&gt;!!S1(!!(A!!&amp;R6';82O:8.T)%&amp;H:7ZU,GRW9WRB=X-!%5:J&gt;'ZF=X-A17&gt;F&lt;H1A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!O1(!!(A!!&amp;2.*1WBS&lt;WVP=W^N:3ZM&gt;G.M98.T!!Z*1WBS&lt;WVP=W^N:3"J&lt;A!!-E"Q!"Y!!"=62GFU&lt;G6T=S"":W6O&gt;#ZM&gt;G.M98.T!""';82O:8.T)%&amp;H:7ZU)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		</Item>
+	</Item>
 </LVClass>

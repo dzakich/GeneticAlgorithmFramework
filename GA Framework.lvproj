@@ -23,6 +23,15 @@
 					</Item>
 					<Item Name="Mutator.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Mutator/Mutator.lvclass"/>
 				</Item>
+				<Item Name="Selector" Type="Folder">
+					<Item Name="Selector.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Selector/Selector.lvclass"/>
+				</Item>
+				<Item Name="Recombinator" Type="Folder">
+					<Item Name="Recombinator.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Recombinator/Recombinator.lvclass"/>
+				</Item>
+				<Item Name="Fitness Agent" Type="Folder">
+					<Item Name="Fitness Agent.lvclass" Type="LVClass" URL="../GA Core/Genetic Operators/Fitness Agent/Fitness Agent.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="GA Core.lvclass" Type="LVClass" URL="../GA Core/GA Core.lvclass"/>
 		</Item>

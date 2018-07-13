@@ -60,6 +60,7 @@
 			<Item Name="Generate Bounded Random Number.vi" Type="VI" URL="../../Support/Generate Bounded Random Number.vi"/>
 		</Item>
 		<Item Name="_test_MutatorGAOperator(binary).vi" Type="VI" URL="../__deleteLater/_test_MutatorGAOperator(binary).vi"/>
+		<Item Name="_test_RecombinatorGAOperator(binary).vi" Type="VI" URL="../__deleteLater/_test_RecombinatorGAOperator(binary).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
